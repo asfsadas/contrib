@@ -1,4 +1,4 @@
-module entgo.io/contrib
+module github.com/asfsadas/contrib
 
 go 1.16
 
