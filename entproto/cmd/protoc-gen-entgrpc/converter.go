@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strings"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto"
 	"github.com/jhump/protoreflect/desc"
 	"google.golang.org/protobuf/compiler/protogen"
 	dpb "google.golang.org/protobuf/types/descriptorpb"
