@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/nilexample"
 )
 
 // NilExampleCreate is the builder for creating a NilExample entity.

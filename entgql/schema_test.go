@@ -51,11 +51,11 @@ func TestEntGQL_buildTypes(t *testing.T) {
   todos: [Todo!]
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category.Status") {
   ENABLED
   DISABLED
 }
-type MasterUser @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent.User") {
+type MasterUser @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.User") {
   id: ID!
   username: String!
   age: Float!
@@ -64,13 +64,13 @@ type MasterUser @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent
   nullableString: String
 }
 """Role is enum for the field role"""
-enum Role @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/role.Role") {
+enum Role @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role.Role") {
   ADMIN
   USER
   UNKNOWN
 }
 """Status is enum for the field status"""
-enum Status @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.Status") {
+enum Status @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }
@@ -86,7 +86,7 @@ type Todo {
   children: [Todo!]
 }
 """VisibilityStatus is enum for the field visibility_status"""
-enum VisibilityStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
+enum VisibilityStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
   LISTING
   HIDDEN
 }
@@ -140,11 +140,11 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category.Status") {
   ENABLED
   DISABLED
 }
-type MasterUser implements Node @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent.User") {
+type MasterUser implements Node @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.User") {
   id: ID!
   username: String!
   age: Float!
@@ -168,13 +168,13 @@ type MasterUserEdge {
   cursor: Cursor!
 }
 """Role is enum for the field role"""
-enum Role @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/role.Role") {
+enum Role @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role.Role") {
   ADMIN
   USER
   UNKNOWN
 }
 """Status is enum for the field status"""
-enum Status @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.Status") {
+enum Status @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }
@@ -216,7 +216,7 @@ enum TodoOrderField {
   TEXT
 }
 """VisibilityStatus is enum for the field visibility_status"""
-enum VisibilityStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
+enum VisibilityStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
   LISTING
   HIDDEN
 }
@@ -432,13 +432,13 @@ func TestModifyConfig_todoplugin(t *testing.T) {
 	require.NoError(t, err)
 
 	expected := map[string]string{
-		"Category":         "entgo.io/contrib/entgql/internal/todoplugin/ent.Category",
-		"CategoryStatus":   "entgo.io/contrib/entgql/internal/todoplugin/ent/category.Status",
-		"MasterUser":       "entgo.io/contrib/entgql/internal/todoplugin/ent.User",
-		"Role":             "entgo.io/contrib/entgql/internal/todoplugin/ent/role.Role",
-		"Status":           "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.Status",
-		"Todo":             "entgo.io/contrib/entgql/internal/todoplugin/ent.Todo",
-		"VisibilityStatus": "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus",
+		"Category":         "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Category",
+		"CategoryStatus":   "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category.Status",
+		"MasterUser":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.User",
+		"Role":             "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role.Role",
+		"Status":           "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.Status",
+		"Todo":             "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Todo",
+		"VisibilityStatus": "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus",
 	}
 	require.Equal(t, expected, cfg)
 }
@@ -452,27 +452,27 @@ func TestModifyConfig_todoplugin_relay(t *testing.T) {
 	cfg, err := e.genModels()
 	require.NoError(t, err)
 	expected := map[string]string{
-		"Category":             "entgo.io/contrib/entgql/internal/todoplugin/ent.Category",
-		"CategoryConnection":   "entgo.io/contrib/entgql/internal/todoplugin/ent.CategoryConnection",
-		"CategoryEdge":         "entgo.io/contrib/entgql/internal/todoplugin/ent.CategoryEdge",
-		"CategoryOrder":        "entgo.io/contrib/entgql/internal/todoplugin/ent.CategoryOrder",
-		"CategoryOrderField":   "entgo.io/contrib/entgql/internal/todoplugin/ent.CategoryOrderField",
-		"CategoryStatus":       "entgo.io/contrib/entgql/internal/todoplugin/ent/category.Status",
-		"Cursor":               "entgo.io/contrib/entgql/internal/todoplugin/ent.Cursor",
-		"MasterUser":           "entgo.io/contrib/entgql/internal/todoplugin/ent.User",
-		"MasterUserConnection": "entgo.io/contrib/entgql/internal/todoplugin/ent.MasterUserConnection",
-		"MasterUserEdge":       "entgo.io/contrib/entgql/internal/todoplugin/ent.MasterUserEdge",
-		"Node":                 "entgo.io/contrib/entgql/internal/todoplugin/ent.Noder",
-		"OrderDirection":       "entgo.io/contrib/entgql/internal/todoplugin/ent.OrderDirection",
-		"PageInfo":             "entgo.io/contrib/entgql/internal/todoplugin/ent.PageInfo",
-		"Role":                 "entgo.io/contrib/entgql/internal/todoplugin/ent/role.Role",
-		"Status":               "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.Status",
-		"Todo":                 "entgo.io/contrib/entgql/internal/todoplugin/ent.Todo",
-		"TodoConnection":       "entgo.io/contrib/entgql/internal/todoplugin/ent.TodoConnection",
-		"TodoEdge":             "entgo.io/contrib/entgql/internal/todoplugin/ent.TodoEdge",
-		"TodoOrder":            "entgo.io/contrib/entgql/internal/todoplugin/ent.TodoOrder",
-		"TodoOrderField":       "entgo.io/contrib/entgql/internal/todoplugin/ent.TodoOrderField",
-		"VisibilityStatus":     "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus",
+		"Category":             "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Category",
+		"CategoryConnection":   "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.CategoryConnection",
+		"CategoryEdge":         "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.CategoryEdge",
+		"CategoryOrder":        "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.CategoryOrder",
+		"CategoryOrderField":   "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.CategoryOrderField",
+		"CategoryStatus":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category.Status",
+		"Cursor":               "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Cursor",
+		"MasterUser":           "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.User",
+		"MasterUserConnection": "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.MasterUserConnection",
+		"MasterUserEdge":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.MasterUserEdge",
+		"Node":                 "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Noder",
+		"OrderDirection":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.OrderDirection",
+		"PageInfo":             "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.PageInfo",
+		"Role":                 "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role.Role",
+		"Status":               "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.Status",
+		"Todo":                 "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.Todo",
+		"TodoConnection":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.TodoConnection",
+		"TodoEdge":             "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.TodoEdge",
+		"TodoOrder":            "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.TodoOrder",
+		"TodoOrderField":       "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.TodoOrderField",
+		"VisibilityStatus":     "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus",
 	}
 	require.Equal(t, expected, cfg)
 }

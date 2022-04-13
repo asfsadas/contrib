@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/verysecret"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

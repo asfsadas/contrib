@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/todo"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/todo"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/user"
 )
 
 // Todo is the model entity for the Todo schema.

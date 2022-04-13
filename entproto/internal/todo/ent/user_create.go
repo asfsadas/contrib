@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
-	"entgo.io/contrib/entproto/internal/todo/ent/pet"
-	"entgo.io/contrib/entproto/internal/todo/ent/schema"
-	"entgo.io/contrib/entproto/internal/todo/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/attachment"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/group"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/pet"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/schema"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/skipedgeexample"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/user"
 	"github.com/google/uuid"
 )
 

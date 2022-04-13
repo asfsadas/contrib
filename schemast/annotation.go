@@ -19,9 +19,9 @@ import (
 	"go/ast"
 	"sort"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema"
+	"github.com/asfsadas/contrib/entproto"
 	"github.com/mitchellh/mapstructure"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

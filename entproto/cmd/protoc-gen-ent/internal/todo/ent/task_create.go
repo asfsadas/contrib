@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
 )
 
 // TaskCreate is the builder for creating a Task entity.

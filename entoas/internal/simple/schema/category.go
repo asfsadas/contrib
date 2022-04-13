@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entoas"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entoas"
 )
 
 // Category holds the schema definition for the Category entity.

@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/nilexample"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 )
 
 // NilExampleQuery is the builder for querying NilExample entities.

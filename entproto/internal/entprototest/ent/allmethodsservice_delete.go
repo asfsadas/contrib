@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/allmethodsservice"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/allmethodsservice"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // AllMethodsServiceDelete is the builder for deleting a AllMethodsService entity.

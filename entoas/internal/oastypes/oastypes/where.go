@@ -5,9 +5,9 @@ package oastypes
 import (
 	"time"
 
-	"entgo.io/contrib/entoas/internal/oastypes/predicate"
-	"entgo.io/contrib/entoas/internal/oastypes/schema"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entoas/internal/oastypes/predicate"
+	"github.com/asfsadas/contrib/entoas/internal/oastypes/schema"
 	"github.com/google/uuid"
 )
 

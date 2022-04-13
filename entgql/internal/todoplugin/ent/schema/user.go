@@ -15,11 +15,11 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entgql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
 )
 
 type Amount float64

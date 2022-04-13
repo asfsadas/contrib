@@ -5,10 +5,10 @@ package todoplugin
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/category"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
 	"github.com/google/uuid"
 )
 

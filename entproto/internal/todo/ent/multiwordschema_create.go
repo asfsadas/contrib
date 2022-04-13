@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/multiwordschema"
 )
 
 // MultiWordSchemaCreate is the builder for creating a MultiWordSchema entity.

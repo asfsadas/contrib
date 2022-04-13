@@ -25,12 +25,12 @@ import (
 	"strconv"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/category"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/user"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 	"github.com/vmihailenco/msgpack/v5"
 )

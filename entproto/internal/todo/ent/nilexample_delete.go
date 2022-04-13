@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/nilexample"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 )
 
 // NilExampleDelete is the builder for deleting a NilExample entity.

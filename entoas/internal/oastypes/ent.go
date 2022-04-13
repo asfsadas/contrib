@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
+	"github.com/asfsadas/contrib/entoas/internal/oastypes/oastypes"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

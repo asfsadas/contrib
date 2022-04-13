@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithfieldone"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/messagewithfieldone"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // MessageWithFieldOneQuery is the builder for querying MessageWithFieldOne entities.

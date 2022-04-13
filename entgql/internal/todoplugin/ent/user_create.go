@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/schema"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/schema"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/user"
 )
 
 // UserCreate is the builder for creating a User entity.

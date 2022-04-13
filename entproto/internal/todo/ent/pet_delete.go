@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/pet"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/pet"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 )
 
 // PetDelete is the builder for deleting a Pet entity.

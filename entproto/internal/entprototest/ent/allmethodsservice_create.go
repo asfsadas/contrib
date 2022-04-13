@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/allmethodsservice"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/allmethodsservice"
 )
 
 // AllMethodsServiceCreate is the builder for creating a AllMethodsService entity.

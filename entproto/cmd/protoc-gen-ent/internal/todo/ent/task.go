@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
 )
 
 // Task is the model entity for the Task schema.

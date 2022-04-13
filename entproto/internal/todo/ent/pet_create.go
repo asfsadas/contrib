@@ -6,10 +6,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/pet"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/pet"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/user"
 )
 
 // PetCreate is the builder for creating a Pet entity.

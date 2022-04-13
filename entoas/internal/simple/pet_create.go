@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/simple/category"
-	"entgo.io/contrib/entoas/internal/simple/pet"
-	"entgo.io/contrib/entoas/internal/simple/user"
+	"github.com/asfsadas/contrib/entoas/internal/simple/category"
+	"github.com/asfsadas/contrib/entoas/internal/simple/pet"
+	"github.com/asfsadas/contrib/entoas/internal/simple/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

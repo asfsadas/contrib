@@ -18,11 +18,11 @@ import (
 	"flag"
 	"log"
 
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 	"github.com/99designs/gqlgen/api"
 	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/asfsadas/contrib/entgql"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

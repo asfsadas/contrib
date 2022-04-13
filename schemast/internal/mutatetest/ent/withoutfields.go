@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withoutfields"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/schemast/internal/mutatetest/ent/withoutfields"
 )
 
 // WithoutFields is the model entity for the WithoutFields schema.

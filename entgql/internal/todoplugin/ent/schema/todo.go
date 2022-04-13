@@ -19,10 +19,10 @@ import (
 
 	"entgo.io/ent/schema"
 
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entgql"
 )
 
 // Todo defines the todo type schema.

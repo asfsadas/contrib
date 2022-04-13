@@ -3,7 +3,7 @@
 package todo
 
 import (
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/todo"
 	"github.com/google/uuid"
 )
 

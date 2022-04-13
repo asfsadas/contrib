@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/explicitskippedmessage"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/explicitskippedmessage"
 )
 
 // ExplicitSkippedMessage is the model entity for the ExplicitSkippedMessage schema.

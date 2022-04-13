@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/dependsonskipped"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/implicitskippedmessage"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/dependsonskipped"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/implicitskippedmessage"
 )
 
 // DependsOnSkippedCreate is the builder for creating a DependsOnSkipped entity.

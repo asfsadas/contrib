@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/blogpost"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/blogpost"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/category"
 )
 
 // CategoryCreate is the builder for creating a Category entity.

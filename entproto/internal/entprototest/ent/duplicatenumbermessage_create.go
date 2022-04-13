@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/duplicatenumbermessage"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/duplicatenumbermessage"
 )
 
 // DuplicateNumberMessageCreate is the builder for creating a DuplicateNumberMessage entity.

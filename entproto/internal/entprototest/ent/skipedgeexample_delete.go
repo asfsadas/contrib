@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/skipedgeexample"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/skipedgeexample"
 )
 
 // SkipEdgeExampleDelete is the builder for deleting a SkipEdgeExample entity.

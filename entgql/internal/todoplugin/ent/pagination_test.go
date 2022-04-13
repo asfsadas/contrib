@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"testing"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent"
 	"github.com/stretchr/testify/assert"
 )
 

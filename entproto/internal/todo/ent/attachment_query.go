@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/attachment"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/user"
 	"github.com/google/uuid"
 )
 

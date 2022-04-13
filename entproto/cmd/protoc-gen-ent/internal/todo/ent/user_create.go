@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 )
 
 // UserCreate is the builder for creating a User entity.

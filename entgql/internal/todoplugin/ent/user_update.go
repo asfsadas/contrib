@@ -21,13 +21,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/schema"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/predicate"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/schema"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.

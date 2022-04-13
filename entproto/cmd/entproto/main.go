@@ -18,9 +18,9 @@ import (
 	"flag"
 	"log"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/asfsadas/contrib/entproto"
 )
 
 func main() {

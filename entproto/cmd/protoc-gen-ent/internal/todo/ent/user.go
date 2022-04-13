@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 )
 
 // User is the model entity for the User schema.

@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entoas/internal/pets/migrate"
+	"github.com/asfsadas/contrib/entoas/internal/pets/migrate"
 
-	"entgo.io/contrib/entoas/internal/pets/category"
-	"entgo.io/contrib/entoas/internal/pets/pet"
-	"entgo.io/contrib/entoas/internal/pets/user"
+	"github.com/asfsadas/contrib/entoas/internal/pets/category"
+	"github.com/asfsadas/contrib/entoas/internal/pets/pet"
+	"github.com/asfsadas/contrib/entoas/internal/pets/user"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

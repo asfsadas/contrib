@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithid"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/messagewithid"
 )
 
 // MessageWithIDCreate is the builder for creating a MessageWithID entity.

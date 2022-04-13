@@ -21,12 +21,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/asfsadas/contrib/entgql"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/group"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/user"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/hashicorp/go-multierror"
 )

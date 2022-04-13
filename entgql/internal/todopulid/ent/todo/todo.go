@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 const (

@@ -5,10 +5,10 @@ package user
 import (
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/schema"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/schema"
 	"github.com/google/uuid"
 )
 

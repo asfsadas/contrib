@@ -3,8 +3,8 @@
 package task
 
 import (
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

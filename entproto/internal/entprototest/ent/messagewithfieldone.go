@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithfieldone"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/messagewithfieldone"
 )
 
 // MessageWithFieldOne is the model entity for the MessageWithFieldOne schema.

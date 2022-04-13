@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/blogpost"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/blogpost"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/category"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/user"
 )
 
 // BlogPostUpdate is the builder for updating BlogPost entities.

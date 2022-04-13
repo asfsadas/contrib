@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/onemethodservice"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/onemethodservice"
 )
 
 // OneMethodService is the model entity for the OneMethodService schema.

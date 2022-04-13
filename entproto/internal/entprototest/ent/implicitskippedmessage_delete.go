@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/implicitskippedmessage"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/implicitskippedmessage"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // ImplicitSkippedMessageDelete is the builder for deleting a ImplicitSkippedMessage entity.

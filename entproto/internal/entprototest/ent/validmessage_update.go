@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/validmessage"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/validmessage"
 	"github.com/google/uuid"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithpackagename"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/messagewithpackagename"
 )
 
 // MessageWithPackageName is the model entity for the MessageWithPackageName schema.

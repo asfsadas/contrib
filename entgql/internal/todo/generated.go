@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/durationgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/durationgql"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/todo"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )

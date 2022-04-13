@@ -19,8 +19,8 @@ package user
 import (
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
 )
 
 const (

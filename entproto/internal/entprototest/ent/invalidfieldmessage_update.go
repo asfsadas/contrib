@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/schema"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/schema"
 )
 
 // InvalidFieldMessageUpdate is the builder for updating InvalidFieldMessage entities.

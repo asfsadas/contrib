@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent"
 )
 
 // The CategoryFunc type is an adapter to allow the use of ordinary

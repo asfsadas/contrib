@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/multiwordschema"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 )
 
 // MultiWordSchemaUpdate is the builder for updating MultiWordSchema entities.

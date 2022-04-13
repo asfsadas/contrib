@@ -5,8 +5,8 @@ package nilexample
 import (
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

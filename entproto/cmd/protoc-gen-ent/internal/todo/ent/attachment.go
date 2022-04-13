@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
 )
 
 // Attachment is the model entity for the Attachment schema.

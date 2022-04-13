@@ -15,8 +15,8 @@
 package todopulid
 
 import (
-	"entgo.io/contrib/entgql/internal/todopulid/ent"
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/asfsadas/contrib/entgql/internal/todopulid/ent"
 )
 
 // Resolver is the resolver root.

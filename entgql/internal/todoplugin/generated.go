@@ -12,15 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/durationgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/category"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/schema/uuidgql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/durationgql"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/schema/uuidgql"
 	"github.com/google/uuid"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
@@ -690,7 +690,7 @@ enum CategoryOrderField {
   DURATION
 }
 """CategoryStatus is enum for the field status"""
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -783,7 +783,7 @@ Define a Relay Cursor type:
 https://relay.dev/graphql/connections.htm#sec-Cursor
 """
 scalar Cursor
-type MasterUser implements Node @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent.User") {
+type MasterUser implements Node @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent.User") {
   id: ID!
   username: String!
   age: Float!
@@ -833,13 +833,13 @@ type PageInfo {
   endCursor: Cursor
 }
 """Role is enum for the field role"""
-enum Role @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/role.Role") {
+enum Role @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role.Role") {
   ADMIN
   USER
   UNKNOWN
 }
 """Status is enum for the field status"""
-enum Status @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.Status") {
+enum Status @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
 }
@@ -1018,7 +1018,7 @@ input UserWhereInput {
   idLTE: ID
 }
 """VisibilityStatus is enum for the field visibility_status"""
-enum VisibilityStatus @goModel(model: "entgo.io/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
+enum VisibilityStatus @goModel(model: "github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo.VisibilityStatus") {
   LISTING
   HIDDEN
 }

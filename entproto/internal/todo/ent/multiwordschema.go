@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/multiwordschema"
 )
 
 // MultiWordSchema is the model entity for the MultiWordSchema schema.

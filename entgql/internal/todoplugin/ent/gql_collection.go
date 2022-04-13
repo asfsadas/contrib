@@ -21,9 +21,9 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
 )
 
 // CollectFields tells the query-builder to eagerly load connected nodes by resolver context.

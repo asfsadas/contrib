@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/group"
-	"entgo.io/contrib/entgql/internal/todo/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/group"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/predicate"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/user"
 )
 
 // CategoryWhereInput represents a where input for filtering Category queries.

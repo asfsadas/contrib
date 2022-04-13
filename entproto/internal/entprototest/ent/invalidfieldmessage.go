@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/schema"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/schema"
 )
 
 // InvalidFieldMessage is the model entity for the InvalidFieldMessage schema.

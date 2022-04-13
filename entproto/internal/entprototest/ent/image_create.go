@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/image"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/user"
 	"github.com/google/uuid"
 )
 

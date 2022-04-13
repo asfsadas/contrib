@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"entgo.io/contrib/entoas/serialization"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/asfsadas/contrib/entoas/serialization"
 	"github.com/stretchr/testify/require"
 )
 

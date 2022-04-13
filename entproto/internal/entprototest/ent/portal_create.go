@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/portal"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/category"
+	"github.com/asfsadas/contrib/entproto/internal/entprototest/ent/portal"
 )
 
 // PortalCreate is the builder for creating a Portal entity.

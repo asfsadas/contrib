@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
 )
 
 // Todo is the model entity for the Todo schema.

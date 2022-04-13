@@ -3,9 +3,9 @@
 package attachment
 
 import (
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/predicate"
 	"github.com/google/uuid"
 )
 

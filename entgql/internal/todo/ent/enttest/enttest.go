@@ -19,9 +19,9 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entgql/internal/todo/ent/runtime"
+	_ "github.com/asfsadas/contrib/entgql/internal/todo/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
 )

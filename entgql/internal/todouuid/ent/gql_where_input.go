@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/user"
 	"github.com/google/uuid"
 )
 

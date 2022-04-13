@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/category"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/predicate"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
 )
 
 // CategoryQuery is the builder for querying Category entities.

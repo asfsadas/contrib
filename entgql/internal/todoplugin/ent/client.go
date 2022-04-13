@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/migrate"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/migrate"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/category"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/todo"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/user"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/user"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

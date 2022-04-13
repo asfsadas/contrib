@@ -5,9 +5,9 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent"
+	"github.com/asfsadas/contrib/schemast/internal/mutatetest/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/schemast/internal/mutatetest/ent/runtime"
+	_ "github.com/asfsadas/contrib/schemast/internal/mutatetest/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
 )

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/migrate"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/migrate"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/group"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
-	"entgo.io/contrib/entgql/internal/todo/ent/verysecret"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/group"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/user"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/verysecret"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/predicate"
 	"entgo.io/ent"
+	"github.com/asfsadas/contrib/schemast/internal/printtest/ent/predicate"
 )
 
 const (

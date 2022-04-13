@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/oastypes"
+	"github.com/asfsadas/contrib/entoas/internal/oastypes"
 )
 
 // The OASTypesFunc type is an adapter to allow the use of ordinary

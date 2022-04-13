@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/predicate"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withoutfields"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/asfsadas/contrib/schemast/internal/mutatetest/ent/predicate"
+	"github.com/asfsadas/contrib/schemast/internal/mutatetest/ent/withoutfields"
 )
 
 // WithoutFieldsDelete is the builder for deleting a WithoutFields entity.

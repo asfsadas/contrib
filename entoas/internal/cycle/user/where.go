@@ -3,9 +3,9 @@
 package user
 
 import (
-	"entgo.io/contrib/entoas/internal/cycle/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/asfsadas/contrib/entoas/internal/cycle/predicate"
 )
 
 // ID filters vertices based on their ID field.

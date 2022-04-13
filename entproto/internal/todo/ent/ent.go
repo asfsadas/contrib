@@ -7,17 +7,17 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/pet"
-	"entgo.io/contrib/entproto/internal/todo/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/todo"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/attachment"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/group"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/multiwordschema"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/nilexample"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/pet"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/skipedgeexample"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/todo"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

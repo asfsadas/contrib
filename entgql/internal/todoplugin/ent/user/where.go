@@ -17,10 +17,10 @@
 package user
 
 import (
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/schema"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/predicate"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/schema"
 )
 
 // ID filters vertices based on their ID field.

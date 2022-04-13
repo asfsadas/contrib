@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entproto/internal/todo/ent/nilexample"
 )
 
 // NilExample is the model entity for the NilExample schema.

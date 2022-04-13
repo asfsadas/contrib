@@ -3,9 +3,9 @@
 package pet
 
 import (
-	"entgo.io/contrib/entoas/internal/simple/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/asfsadas/contrib/entoas/internal/simple/predicate"
 )
 
 // ID filters vertices based on their ID field.

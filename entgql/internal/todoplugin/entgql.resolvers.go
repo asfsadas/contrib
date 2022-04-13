@@ -20,7 +20,7 @@ package todoplugin
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent"
 )
 
 func (r *masterUserResolver) Age(ctx context.Context, obj *ent.User) (float64, error) {

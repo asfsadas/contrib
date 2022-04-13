@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/role"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/schema"
-	"entgo.io/contrib/entgql/internal/todoplugin/ent/user"
 	"entgo.io/ent/dialect/sql"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/role"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/schema"
+	"github.com/asfsadas/contrib/entgql/internal/todoplugin/ent/user"
 )
 
 // User is the model entity for the User schema.

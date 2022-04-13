@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/migrate"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/migrate"
 	"github.com/google/uuid"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/verysecret"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/asfsadas/contrib/entgql/internal/todouuid/ent/verysecret"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"

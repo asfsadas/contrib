@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/verysecret"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/category"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/todo"
+	"github.com/asfsadas/contrib/entgql/internal/todo/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )
