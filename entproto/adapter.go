@@ -34,7 +34,6 @@ import (
 const (
 	DefaultProtoPackageName = "entpb"
 	IDFieldNumber           = 1
-	OmitTypeName            = "omit"
 )
 
 var (
@@ -322,9 +321,6 @@ func (a *Adapter) toProtoMessageDescriptor(genType *gen.Type) (*descriptorpb.Des
 	all = append(all, genType.Fields...)
 
 	for _, f := range all {
-		if protoField, ok := f.Annotations["ProtoField"].(map[string]interface{}); ok && protoField["TypeName"] == OmitTypeName {
-			continue
-		}
 		if _, ok := f.Annotations[SkipAnnotation]; ok {
 			continue
 		}
