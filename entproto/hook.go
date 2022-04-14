@@ -107,12 +107,9 @@ func fileExists(fpath string) bool {
 }
 
 func protocGenerateGo(fd *desc.FileDescriptor) string {
-	levelsUp := len(strings.Split(fd.GetPackage(), "."))
 	toProtoBase, _ := os.Getwd()
-	for i := 0; i < levelsUp; i++ {
-		toProtoBase = filepath.Join("..", toProtoBase)
-	}
-	schemaDir := filepath.Join("..", toProtoBase, "schema")
+	schemaDir := filepath.Join(toProtoBase, "schema")
+	toProtoBase = filepath.Join(toProtoBase, "proto")
 	protocCmd := []string{
 		"protoc",
 		"-I=" + toProtoBase,
