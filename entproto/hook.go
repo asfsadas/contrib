@@ -108,7 +108,7 @@ func fileExists(fpath string) bool {
 
 func protocGenerateGo(fd *desc.FileDescriptor) string {
 	levelsUp := len(strings.Split(fd.GetPackage(), "."))
-	toProtoBase := ""
+	toProtoBase, _ := os.Getwd()
 	for i := 0; i < levelsUp; i++ {
 		toProtoBase = filepath.Join("..", toProtoBase)
 	}
